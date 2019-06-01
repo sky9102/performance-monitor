@@ -1,4 +1,4 @@
-# 前端异常上报
+# 前端性能监控
 
 > 简介：前端性能监控，实时上报用户浏览站点性能数据；监控的数据有 **准备新页面时间耗时、DNS查询耗时、TCP链接耗时、Request请求耗时、解析dom树耗时、页面白屏时间、domready时间、onload执行完成时间时间**；可以持续监控、评估、上报数据，及时发现瓶颈，从而优化。
 
@@ -45,9 +45,6 @@ Vue.use(PerformanceMonitor, {
 });
 ```
 
-### Demo
-[examples](https://github.com/sky9102/performance-monitor/blob/master/src/views/index.vue)
-
 ## 配置参数 options
 
 属性|说明|类型|默认值|是否可以为空
@@ -58,7 +55,7 @@ appId|项目ID|String||Y
 appName|项目名称|String||Y
 timeSpan|发送数据时的时间戳|Number|每次取当前的时间戳|Y|
 userAgent|userAgent|String|userAgent|Y|
-pageUrl|上报页面地址|String|window.location.href|Y|
+isSendBeacon|是否使用高级浏览器支持的 navigator.sendBeacon方法，这个方法可以用来发送一些小量数据，该方法是异步的，且在浏览器关闭请求也照样能发送请求，特别适合上报统计的场景。不支持时使用img的方式上报|Boolean|false|N|
 
 
 ## 警告
