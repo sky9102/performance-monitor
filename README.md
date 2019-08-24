@@ -58,6 +58,26 @@ timeSpan|发送数据时的时间戳|Number|每次取当前的时间戳|Y|
 userAgent|userAgent|String|userAgent|Y|
 isSendBeacon|是否使用高级浏览器支持的 navigator.sendBeacon方法，这个方法可以用来发送一些小量数据，该方法是异步的，且在浏览器关闭请求也照样能发送请求，特别适合上报统计的场景。不支持时使用img的方式上报|Boolean|false|N|
 
+## 上报数据
+属性|说明
+--|:--:
+reportUrl|上报URL
+appId|appId
+env|环境：dev、test、uat、pro
+infoType|preformance
+timeSpan|当前时间戳
+userAgent|userAgent
+isSendBeacon|是否使用高级浏览器支持的 navigator.sendBeacon方法
+prepareNewPageTime|准备新页面时间耗时（毫秒）
+queryDNSTime|DNS查询耗时（毫秒）
+connectionTCPTime|TCP链接耗时（毫秒）
+requestTime|request请求耗时（毫秒）
+analysisDOMTime|解析dom树耗时（毫秒）
+whiteScreenTime|白屏时间（毫秒）
+domReadyTime|domready时间（毫秒）
+onloadSuccessTime|onload执行完成时间（毫秒）
+currenPagetUrl|当前页面地址
+
 
 ## 警告
 * 本项目仅用于学习练习

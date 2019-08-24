@@ -96,7 +96,7 @@ class PerformanceMonitor {
         const whiteScreenTime = responseStart - navigationStart;
         // domready时间
         const domReadyTime = domContentLoadedEventEnd - navigationStart;
-        // onload执行完成时间时间
+        // onload执行完成时间
         const onloadSuccessTime = loadEventEnd - navigationStart;
 
         // 内存是否溢出
