@@ -10,7 +10,8 @@ Vue.config.productionTip = false
 Vue.use(PerformanceMonitor, {
     reportUrl: "http://localhost:10300/performanceMonitor",
     appId: "performanceMonitor-1559318109525",
-    appName: "performanceMonitor"
+    appName: "performanceMonitor",
+    env: 'dev'
 });
 
 /* eslint-disable no-new */

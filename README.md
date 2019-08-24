@@ -50,7 +50,7 @@ Vue.use(PerformanceMonitor, {
 属性|说明|类型|默认值|是否可以为空
 --|:--:|--:|--:|--:
 reportUrl|性能上报地址|String|http://localhost:10300/performanceMonitor|N|
-delayTime|延时上报Error时间|Number|3000 (单位：毫秒)|N
+env|环境：dev、test、uat、pro|String|dev|Y
 appId|项目ID|String||Y
 appName|项目名称|String||Y
 timeSpan|发送数据时的时间戳|Number|每次取当前的时间戳|Y|
