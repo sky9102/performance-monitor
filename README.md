@@ -79,12 +79,6 @@ onloadSuccessTime|onload执行完成时间（毫秒）
 currenPagetUrl|当前页面地址
 
 
-## 警告
-* 本项目仅用于学习练习
-* 本项目还不完善，仍处在开发中，不承担任何使用后果
-* 本项目代码开源[MIT](https://github.com/sky9102/performance-monitor/blob/master/LICENSE)，项目文档采用 [署名-禁止演绎 4.0 国际协议许可](https://creativecommons.org/licenses/by-nd/4.0/deed.zh)
-
-
 ## 问题
 * 开发者有问题或者好的建议可以用[Issues](https://github.com/sky9102/performance-monitor/issues)反馈交流，请给出详细信息。
 * 如果有问题需要提问，请在提问前先完成以下过程：
